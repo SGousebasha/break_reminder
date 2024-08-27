@@ -7,7 +7,6 @@ def send_notification():
 
 def applicationStartedNotification():
     subprocess.run(['notify-send', 'Break Remider', 'Remider started'])
-    print("Mydeziner and Break remider started sucessfully..!")
 
 def main():
     while True:
